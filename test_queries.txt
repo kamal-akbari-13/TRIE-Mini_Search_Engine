@@ -1,0 +1,338 @@
+# TEST QUERIES FOR SEARCH ENGINE
+# Each line contains a query to test different functionalities
+# All queries are based on actual content from data files to ensure results
+
+# 1. BASIC AND/OR QUERIES (based on common words in data files)
+
+food restaurant
+Hong Kong
+CNN travel
+chef cooking
+wine France
+hotel luxury
+desert Dubai
+barbecue meat
+technology news
+science research
+
+# 2. EXACT PHRASE QUERIES (use quotes) - based on actual phrases
+
+"Hong Kong"
+"CNN Travel"
+"Iron Chef"
+"Marc Forgione"
+"Law Fu Kee"
+"Mak's Noodles"
+"Tai Cheong Bakery"
+"Qasr Al Sarab"
+"Empty Quarter"
+"Rub' al Khali"
+
+# 3. HASHTAG QUERIES (use # symbol) - ACTUAL hashtags found in data files
+
+#content
+#WhyIStayed
+#BlackLivesMatter
+#Justice4All
+#cleaneating
+#hashtag
+
+# 4. PRICE QUERIES (use $ symbol) - based on prices mentioned in data
+
+$10
+$75
+$200
+$500
+$999
+$1000
+$5000
+$10000
+$50000
+$100000
+
+# 5. FILETYPE QUERIES
+
+filetype:txt
+filetype:pdf
+filetype:doc
+filetype:inp
+
+# 6. INTITLE QUERIES - based on actual titles and topics
+
+intitle:Food
+intitle:Travel
+intitle:Chef
+intitle:Hotel
+intitle:Wine
+intitle:Desert
+intitle:Barbecue
+intitle:Technology
+intitle:Science
+intitle:CNN
+
+# 7. MINUS QUERIES (use - symbol) - excluding common words
+
+food -restaurant
+Hong -Kong
+CNN -Travel
+chef -cooking
+wine -France
+hotel -luxury
+desert -Dubai
+barbecue -meat
+technology -news
+science -research
+
+# 8. COMBINED QUERIES - mixing different query types
+
+food AND restaurant
+Hong AND Kong
+CNN AND Travel
+chef AND cooking
+wine AND France
+hotel AND luxury
+desert AND Dubai
+barbecue AND meat
+technology AND news
+science AND research
+
+# 9. COMPLEX QUERIES - multiple conditions
+
+"Hong Kong" AND #WhyIStayed
+"CNN Travel" AND #BlackLivesMatter
+"Iron Chef" AND #cleaneating
+"Qasr Al Sarab" AND #hashtag
+"Empty Quarter" AND #Justice4All
+"barbecue" AND $200
+"wine" AND France AND #cleaneating
+"chef" AND cooking AND #WhyIStayed
+"hotel" AND luxury AND #BlackLivesMatter
+"technology" AND news AND #hashtag
+
+# 10. SPECIFIC CONTENT QUERIES - based on actual content
+
+congee
+wonton
+egg tart
+foie gras
+braai
+asado
+yakitori
+Biscoff
+Delta
+Gascony
+Bordeaux
+Cambodia
+Khmer
+Phnom Penh
+Siem Reap
+
+# 11. LOCATION QUERIES - places mentioned in data
+
+Hong Kong
+France
+Bordeaux
+Gascony
+Cambodia
+Phnom Penh
+Siem Reap
+Abu Dhabi
+Dubai
+South Africa
+Argentina
+Japan
+Tokyo
+London
+Paris
+
+# 12. CUISINE QUERIES - food types mentioned
+
+Chinese food
+French cuisine
+Khmer cuisine
+Japanese food
+South African braai
+Argentine asado
+Belgian cookies
+Cambodian food
+Hong Kong food
+French wine
+
+# 13. RESTAURANT QUERIES - specific restaurants mentioned
+
+Law Fu Kee
+Mak's Noodles
+Tai Cheong Bakery
+Don Julio
+Yakitori Imai
+Mzoli's
+Le Loft
+La Vie en Rose
+Kraya Angkor
+Lily & Bloom
+
+# 14. CHEF QUERIES - chefs mentioned in data
+
+Marc Forgione
+Otto Tepasse
+Ly San
+Remy Grassa
+Yves Grassa
+Guillermo Pernot
+Unique Love
+Tanya Spaulding
+Aileen Nguyen
+Idil Kozanoglu
+
+# 15. EDGE CASES AND PERFORMANCE TESTS
+
+very long query with many words to test performance and search capabilities
+
+a
+the
+and
+or
+not
+CNN
+food
+travel
+hotel
+wine
+chef
+desert
+barbecue
+technology
+science
+luxury
+cooking
+restaurant
+France
+Hong
+Kong
+Cambodia
+Japan
+Argentina
+South
+Africa
+Belgium
+Delta
+Biscoff
+Gascony
+Bordeaux
+Phnom
+Penh
+Siem
+Reap
+Abu
+Dhabi
+Dubai
+Tokyo
+London
+Paris
+Chinese
+French
+Khmer
+Japanese
+Belgian
+Cambodian
+Iron
+Chef
+Empty
+Quarter
+Rub
+al
+Khali
+Qasr
+Al
+Sarab
+Law
+Fu
+Kee
+Mak
+Noodles
+Tai
+Cheong
+Bakery
+Don
+Julio
+Yakitori
+Imai
+Mzoli
+Loft
+Vie
+Rose
+Kraya
+Angkor
+Lily
+Bloom
+Marc
+Forgione
+Otto
+Tepasse
+Ly
+San
+Remy
+Grassa
+Yves
+Grassa
+Guillermo
+Pernot
+Unique
+Love
+Tanya
+Spaulding
+Aileen
+Nguyen
+Idil
+Kozanoglu
+congee
+wonton
+egg
+tart
+foie
+gras
+braai
+asado
+yakitori
+Biscoff
+Delta
+Gascony
+Bordeaux
+Cambodia
+Khmer
+Phnom
+Penh
+Siem
+Reap
+Abu
+Dhabi
+Dubai
+South
+Africa
+Argentina
+Japan
+Tokyo
+London
+Paris
+Chinese
+food
+French
+cuisine
+Khmer
+cuisine
+Japanese
+food
+South
+African
+braai
+Argentine
+asado
+Belgian
+cookies
+Cambodian
+food
+Hong
+Kong
+food
+French
+wine
