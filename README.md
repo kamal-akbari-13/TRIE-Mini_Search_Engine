@@ -78,9 +78,7 @@ Root Node
 
 ---
 
-## ⚙ Tech Stack
-- **Programming Language**: C++11/14 (with experimental filesystem support)
-- **Compilers**: GCC 7+, MSVC 2017+, Clang 5+
+
 
 ---
 
