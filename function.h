@@ -112,4 +112,4 @@ void toLower(string&);
 bool isNum(string);
 bool valid(string);
 int isPunc(char);
-void check_history(ostream&, vector<string>, int);// header file for trie functions
+void check_history(ostream&, vector<string>, int);
