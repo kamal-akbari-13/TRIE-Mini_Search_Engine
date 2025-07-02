@@ -93,17 +93,17 @@ public:
 	///INPUT
 	void inputData(string);
 	//string: text
-	void inputFileName(); //For 0 -> documentCount-1 get filename
+	void inputFileName(); 
 
 	///QUERY
-	void queryAND(ostream&, string[], int, int*);  //array of string (inputed keywords),  int: array size, int*: the array to check files satisfy query
-	void queryOR(ostream&, string[], int, int*, bool&);	//array of string (inputed keywords),  int: array size, int*: the array to check files satisfy query, bool & check if having satisfied resuld or not
-	void queryPRICE(ostream&, string[], int); //AND
-	void queryEXACT(ostream&, string[], int); //AND
-	void queryFILETYPE(ostream&, string[], int); //OR
-	void queryHASHTAG(ostream&, string[], int); //OR
-	void queryINTITLE(ostream&, string[], int); //OR
-	void queryMINUS(ostream&, string[], bool[], int); //AND
+	void queryAND(ostream&, string[], int, int*); 
+	void queryOR(ostream&, string[], int, int*, bool&);	
+	void queryPRICE(ostream&, string[], int);
+	void queryEXACT(ostream&, string[], int); 
+	void queryFILETYPE(ostream&, string[], int); 
+	void queryHASHTAG(ostream&, string[], int); 
+	void queryINTITLE(ostream&, string[], int);
+	void queryMINUS(ostream&, string[], bool[], int); 
 };
 
 ///OTHER FUNCTION
